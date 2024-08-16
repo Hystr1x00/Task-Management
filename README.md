@@ -1,8 +1,10 @@
-# React + Vite
+![Screenshot 2024-08-16 222357](https://github.com/user-attachments/assets/26fd36d5-3db1-4be9-bced-c821397cca82)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TASK MANAGEMENT
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Using Javascript, HTML, CSS, Reactjs, Vite, dan FortAwesome Icon
+Web ini berfungsi untuk memanage task yang berisi fitur:
+1. Membuat task yang terdapat Nama task, Nama orang yang ditugaskan, dan deadline
+2. Fitur Edit Task
+3. Fitur Delete Task
+4. Dan fitur Complete Task
