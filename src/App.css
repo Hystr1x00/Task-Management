@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #EBEBEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: #FFFFFF;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 40px;
+  box-shadow: #000000;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+  
+}
+
+.inputwrapper {
+  justify-content: space-between;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #000000;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #000000;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.assign-input {
+    outline: none;
+    background: none;
+    border: 1px solid #000000;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: #000000;
+  }
+
+.deadline-input {
+    outline: none;
+    background: none;
+    border: 1px solid #000000;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: #000000;
+  }
+
+.todo-input::placeholder {
+  color: #0000004d;
+}
+
+.assign-input::placeholder {
+  color: #0000004d;
+}
+
+.deadline-input::placeholder {
+  color: #0000004d;
+}
+
+.todo-btn {
+  background: #000000;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  border-top-right-radius:15px;
+  border-bottom-right-radius: 15px;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e9e9e9;
+  color: #000000;
+  padding: 0.75rem 1rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #000000;
+  cursor: pointer;
+}
+
+.completed {
+  color: #ffffff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+ 
